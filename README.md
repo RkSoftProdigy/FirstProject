@@ -6,8 +6,8 @@
     var savedSelector : Selector?
     var savedDelegate : AnyObject?
     var savedParameters = [String : Any]()
-    var savedMethod = String()
-    
+    var savedMethod = String()  
+    /////////
     func GetApi(urlStr : String)
     {
         if Reach.isConnectedToNetwork() == true
