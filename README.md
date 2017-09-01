@@ -183,3 +183,15 @@
             CommonFunctions.sharedInstance.showAlert(message: KInternetConnectionLost, delegate: self)
         }    }
 }
+
+
+////////////
+
+SQlite
+
+
+    NotificationArr = ModelManager.getInstance().getAllNotificationData()
+
+
+
+
